@@ -1,24 +1,15 @@
 # shortten-app
 
-## Project setup
-```
-yarn install
-```
+a front end app for Primary Bid Ltd Task
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## components
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- **Footer**: it contains footer.
+- **Header**: it contains header.
+- **FormCreator**: it contains form to submit a new url to shorten.
+- **URLItem**: it contains an item that takes url as a prop and render it.
 
-### Lints and fixes files
-```
-yarn lint
-```
+## views
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **Home**: it contains a from to submit the url.
+- **List**: it contains a list of previous urls.
